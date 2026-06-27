@@ -1,0 +1,26 @@
+{
+  "name": "rascloud-server",
+  "version": "1.0.0",
+  "description": "RasCloud - Remote Server Management Utility",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite --config vite.config.ts --host 0.0.0.0",
+    "build": "npx vite build --config vite.config.ts",
+    "serve": "npx vite preview --config vite.config.ts --host 0.0.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.1",
+    "multer": "^1.4.5-lts.2",
+    "ws": "^8.18.1"
+  },
+  "keywords": [
+    "rascloud",
+    "server-management",
+    "remote",
+    "termux",
+    "powershell"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "port": 4000,
+  "deviceType": "linux",
+  "allowedScriptTypes": {
+    "python": true,
+    "node": true,
+    "java": true,
+    "bash": true,
+    "powershell": false,
+    "php": false
+  },
+  "maxLogLines": 500,
+  "autoRestart": false,
+  "rascloudVersion": "1.0.0"
+}
